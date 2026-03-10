@@ -694,7 +694,7 @@ export default function Portfolio() {
                         <span className="gold-gradient">ORO.</span>
                     </div>
                     <p className="font-mono" style={{ color: "#4B4B52", fontSize: "0.72rem", letterSpacing: "0.05em" }}>
-                        © 2025 Oladepo Rokeeb Olayinka — Frontend Developer
+                        © 2026 Oladepo Rokeeb Olayinka — Frontend Developer
                     </p>
                     <div style={{ display: "flex", gap: "1rem" }}>
                         <a href="https://github.com/Alphcast" target="_blank" rel="noreferrer" style={{ color: "#4B4B52", transition: "color 0.2s" }}
