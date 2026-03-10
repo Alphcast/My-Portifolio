@@ -2,7 +2,7 @@
 import { useState, useEffect, useRef } from "react";
 
 // ============================================================
-// PORTFOLIO — OLADEPO ROKEEB OLAYINKA | Frontend Developer
+// PORTFOLIO — OLADEPO ROKEEB OLAYINKA | Senior Frontend Developer
 // Aesthetic: Dark editorial · Electric Amber/Gold
 // Fonts: Playfair Display + DM Mono
 // ============================================================
@@ -323,7 +323,7 @@ export default function Portfolio() {
             <nav style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 1000, background: scrollY > 50 ? "rgba(10,10,11,0.92)" : "transparent", borderBottom: scrollY > 50 ? "1px solid rgba(245,158,11,0.12)" : "none", transition: "all 0.4s ease", padding: "0 2rem" }} className="nav-blur">
                 <div style={{ maxWidth: 1200, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", height: 72 }}>
                     <div className="font-display" style={{ fontSize: "1.4rem", fontWeight: 700 }}>
-                        <span className="gold-gradient">ORO</span><span style={{ color: "#333" }}>.</span>
+                        <span className="gold-gradient">ALPHCAST</span><span style={{ color: "#333" }}>.</span>
                     </div>
 
                     {/* Desktop */}
@@ -367,7 +367,7 @@ export default function Portfolio() {
                     <div>
                         <p className="section-label fade-up init-hidden" style={{ marginBottom: "1.5rem" }}>⟡ Available for hire</p>
                         <h1 className="font-display fade-up init-hidden d1" style={{ fontSize: "clamp(3rem, 6vw, 5.5rem)", lineHeight: 1.05, fontWeight: 900, letterSpacing: "-0.03em", marginBottom: "1.5rem" }}>
-                            Creative<br /><span className="gold-gradient">Frontend</span><br />Developer
+                            Creative<br /><span className="gold-gradient">Senior Frontend</span><br />Developer
                         </h1>
                         <p className="font-mono fade-up init-hidden d2" style={{ color: "#9CA3AF", fontSize: "0.92rem", lineHeight: 1.9, maxWidth: 480, marginBottom: "2.5rem" }}>
                             Hi, I'm <strong style={{ color: "#E8E6E0" }}>Oladepo Rokeeb Olayinka</strong> — a passionate frontend developer with a Mathematics background, crafting performant, beautiful web experiences with React, Next.js & TypeScript.
@@ -386,18 +386,13 @@ export default function Portfolio() {
                         </div>
                     </div>
 
-                    {/* Avatar */}
                     <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }} className="hero-image-wrap fade-up init-hidden d5">
                         <div style={{ position: "relative" }}>
                             <div style={{ position: "absolute", inset: -8, borderRadius: "50%", padding: 3, background: "conic-gradient(#F59E0B, #10B981, #6366F1, #F59E0B)" }} className="image-ring">
                                 <div style={{ width: "100%", height: "100%", borderRadius: "50%", background: "#0A0A0B" }} />
                             </div>
                             <div className="glow-pulse" style={{ width: 280, height: 280, borderRadius: "50%", overflow: "hidden", background: "linear-gradient(135deg, #1a1a1e 0%, #111113 100%)", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", position: "relative" }}>
-                                {/* ✅ REPLACE BELOW WITH YOUR PHOTO:
-                    <img src="/your-photo.jpg" alt="Oladepo Rokeeb" style={{width:'100%',height:'100%',objectFit:'cover'}} />
-                */}
-                                <div style={{ fontSize: "4.5rem" }}>👨‍💻</div>
-                                <div className="font-mono" style={{ fontSize: "0.6rem", color: "#333", marginTop: "0.5rem", textAlign: "center", letterSpacing: "0.05em" }}>ADD YOUR PHOTO HERE</div>
+                                <img src="/G1.png" alt="Oladepo Rokeeb" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                             </div>
                             <div style={{ position: "absolute", top: -20, right: -35, background: "#F59E0B", color: "#0A0A0B", borderRadius: 4, padding: "0.4rem 0.85rem", fontFamily: "'DM Mono',monospace", fontSize: "0.7rem", fontWeight: 500, whiteSpace: "nowrap" }}>React Expert</div>
                             <div style={{ position: "absolute", bottom: -10, left: -35, background: "#111113", color: "#10B981", border: "1px solid #10B981", borderRadius: 4, padding: "0.4rem 0.85rem", fontFamily: "'DM Mono',monospace", fontSize: "0.7rem", whiteSpace: "nowrap" }}>BSc Mathematics</div>
@@ -420,7 +415,7 @@ export default function Portfolio() {
                             Developer with a<br /><span className="gold-gradient">Mathematical Mind</span>
                         </h2>
                         <p className="font-mono" style={{ color: "#9CA3AF", fontSize: "0.88rem", lineHeight: 1.9, marginBottom: "1.5rem" }}>
-                            I'm Oladepo Rokeeb Olayinka, a dedicated frontend developer who brings analytical precision from my BSc in Mathematical Sciences to every line of code. I believe great software is both an art and a science.
+                            I'm Oladepo Rokeeb Olayinka, a dedicated Senior frontend developer who brings analytical precision from my BSc in Mathematical Sciences to every line of code. I believe great software is both an art and a science.
                         </p>
                         <p className="font-mono" style={{ color: "#9CA3AF", fontSize: "0.88rem", lineHeight: 1.9, marginBottom: "2.5rem" }}>
                             I specialize in building pixel-perfect, performant web applications using React, Next.js, and TypeScript. My mathematics background gives me a unique advantage in solving complex algorithmic challenges and building scalable solutions.
